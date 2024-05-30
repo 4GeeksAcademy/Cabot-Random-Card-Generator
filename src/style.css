@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#cardContainer {
+  border: 3px solid black;
+  max-width: 200px;
+  height: 300px;
+}
+#cardSuit1 {
+  text-align: left;
+  font-size: 3rem;
+}
+#cardSuit2 {
+  transform: rotate(180deg);
+  height: 12%;
+  text-align: left;
+  font-size: 3rem;
+}
+#cardNumber {
+  height: 65%;
+  text-align: center;
+  padding-top: 3rem;
+}
